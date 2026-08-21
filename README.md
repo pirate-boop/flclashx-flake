@@ -1,9 +1,15 @@
-# FlClashX Nix Flake
+# flclashx-flake
 
-Modern Clash Meta GUI for NixOS with automatic updates.
+[![Nix flake check](https://img.shields.io/badge/nix-flake-blue)](https://github.com/pirate-boop/flclashx-flake)
+
+Modern Clash Meta GUI packaged for NixOS with automated updates.
+
+## Features
+- 🔄 **Auto-Updating Hash:** Utilizes `update.sh` and GitHub Actions to automatically fetch new releases and update hashes.
+- 🚀 **Ready to Use:** Simple flake setup for `nix run` or direct integration.
 
 ## Installation
 
-### Try it out
+### Using `nix run`
 ```bash
-nix run github:YOUR_USERNAME/flclashx-flake
+nix run github:your-username/flclashx-flake
