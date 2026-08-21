@@ -12,4 +12,4 @@ Modern Clash Meta GUI packaged for NixOS with automated updates.
 
 ### Using `nix run`
 ```bash
-nix run github:your-username/flclashx-flake
+nix run github:pirate-boop/flclashx-flake
